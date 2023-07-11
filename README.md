@@ -1,13 +1,16 @@
 # Amazon Vine Analysis
 
 ## Overview
-### Background
-Amazon Vine is a service that allows manufacturers and publishers to pay for reviews for their products. Reviewers on the platform are incentivized to post reviews of products with money. 
 
 ### Purpose
-The objective of this project is to analyze big data datasets from Amazon product reviews and furthermore determine if there is a positivity bias for Vine reviews due to the fact that reviewers are incentivized to leave reviews with money. 
+Analyze customer review data for a client interested in digital game video game sales.
 
-The analysis for this exercise focuses on product reviews for products under the category Video Games.
+### Background
+Amazon Vine is an Amazon program that allows Amazon reviewers to receive free items in exchange for reviewing products. 
+![image](https://github.com/mcdoralds/databootcamp-amazon-analysis/assets/31219195/2338a1c9-a149-46ac-89c7-a7d42ef0f7d5)
+
+
+### Objectives
 
 ### Tools
 - Compiling: Google Colab
@@ -16,4 +19,9 @@ The analysis for this exercise focuses on product reviews for products under the
   - Amazon AWS
     - S3
     - RDS
-   
+  
+
+#### Method
+- AWS data was pulled into pgAdmin using Google Colab and Pyspark
+
+### Results
